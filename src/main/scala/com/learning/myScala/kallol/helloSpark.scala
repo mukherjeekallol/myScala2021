@@ -14,4 +14,5 @@ object helloSpark extends  App{
   val sampleSeq = Seq((1,"spark"),(2,"Bigdata"))
   val df = spark.createDataFrame(sampleSeq).toDF()
   df.show()
+  println("first test passed....")
 }
